@@ -50,6 +50,10 @@ function draw() {
    }else{
      text("Last Feed : "+ lastFed + " AM", 350,30);
    }
+  
+  if(foodStock<=0){
+   dog.addImage(Dog) 
+  }
  
   drawSprites();
 }
